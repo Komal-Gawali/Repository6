@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Actual URL:- https://www.saucedemo.com/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-14T16:51:58 IST" name="Default suite" finished-at="2023-02-14T16:52:08 IST" duration-ms="9831">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T16:51:58 IST" name="Default test" finished-at="2023-02-14T16:52:08 IST" duration-ms="9831">
+      <class name="TestCase.LogInPageTestCase">
+        <test-method is-config="true" signature="startup()[pri:0, instance:TestCase.LogInPageTestCase@57c758ac]" started-at="2023-02-14T16:51:58 IST" name="startup" finished-at="2023-02-14T16:52:08 IST" duration-ms="9611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="verifySauceLabURLTest()[pri:0, instance:TestCase.LogInPageTestCase@57c758ac]" started-at="2023-02-14T16:52:08 IST" name="verifySauceLabURLTest" finished-at="2023-02-14T16:52:08 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual URL:- https://www.saucedemo.com/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabURLTest -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCase.LogInPageTestCase@57c758ac]" started-at="2023-02-14T16:52:08 IST" name="closebrowser" finished-at="2023-02-14T16:52:08 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCase.LogInPageTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
